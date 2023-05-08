@@ -1,0 +1,6 @@
+export { default as About } from './about/component/About'
+export { default as Footer } from './footer/component/Footer'
+export { default as Header } from './header/component/Header'
+export { default as MatchHistory } from './matchHistory/component/MatchHistory'
+export { default as MatchInfo } from './matchInfo/component/MatchInfo'
+export { default as Team } from './team/component/Team'

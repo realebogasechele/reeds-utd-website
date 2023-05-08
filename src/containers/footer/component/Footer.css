@@ -1,0 +1,166 @@
+.reeds-utd__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--color-footer);
+}
+
+.reeds-utd__footer-heading {
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 3rem;
+}
+
+.reeds-utd__footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.reeds-utd__footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+    border: 1px solid #fff;
+    text-align: center;
+
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+
+.reeds-utd__footer-btn p {
+    font-size: 18px;
+    font-family: var(--font-family);
+    line-height: 21px;
+    color: #fff;
+    word-spacing: 2px;
+}
+
+.reeds-utd__footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 100%;
+    text-align: left;
+}
+
+.reeds-utd__footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.reeds-utd__footer-links_logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.reeds-utd__footer-links_logo img {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.reeds-utd__footer-links_logo p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+}
+
+.reeds-utd__footer-links_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.reeds-utd__footer-links_div h4 {
+    font-size: 14px;
+    line-height: 17px;
+    font-family: var(--font-family);
+    color: #fff;
+
+    margin-bottom: 0.9rem;
+}
+
+.reeds-utd__footer-links_div p {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: var(--font-family);
+    color: #fff;
+
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.reeds-utd__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.reeds-utd__footer-copyright p {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: #fff;
+}
+
+.reeds-utd__footer_company-text {
+    margin-top: 3rem;
+    text-align: center;
+    width: 100%;
+}
+
+.reeds-utd__footer_company-text p{
+    font-size: 35px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: #fff;
+    opacity: 20%;
+}
+
+.reeds-utd__footer_company-text span{
+    color: lime;
+}
+
+@media screen and (max-width: 850px) {
+    .reeds-utd__footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .reeds-utd__footer_company-text p{
+        font-size: 25px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .reeds-utd__footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .reeds-utd__footer-links div {
+        margin: 1rem 0;
+    }
+
+    .reeds-utd__footer-btn p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .reeds-utd__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
