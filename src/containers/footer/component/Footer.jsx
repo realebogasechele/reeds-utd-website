@@ -28,7 +28,7 @@ export default function Footer() {
         <div className='reeds-utd__footer-links_div'>
           <h4>Get in touch</h4>
           {/* <p>Address Here</p> */}
-          <p>085-132567</p>
+          <p>065 945 4110</p>
           <p>info@payme.net</p>
         </div>
       </div>
